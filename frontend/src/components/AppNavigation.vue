@@ -1,7 +1,11 @@
 <template>
   <nav aria-label="페이지 내비게이션">
     <ul>
-      <li><RouterLink to="/cart">장바구니</RouterLink></li>
+      <li>
+        <RouterLink to="/cart" activeClass="active" exactActiveClass="exact-active">
+          장바구니
+        </RouterLink>
+      </li>
     </ul>
   </nav>
 </template>
@@ -17,7 +21,8 @@ nav {
     border-radius: 4px;
     padding: var(--space-2);
 
-    &.router-link-active {
+    &.active,
+    &.exact-active {
       background: color-mix(in hsl shorter hue, hsl(var(--primary)) 15%, hsl(var(--white)) 100%);
       font-weight: 700;
     }
