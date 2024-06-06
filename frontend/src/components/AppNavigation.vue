@@ -17,7 +17,12 @@ nav {
     border-radius: 4px;
     padding: var(--space-2);
 
-    &:hover {
+    &.router-link-active {
+      background: color-mix(in hsl shorter hue, hsl(var(--primary)) 15%, hsl(var(--white)) 100%);
+      font-weight: 700;
+    }
+
+    &:hover:not(.router-link-active) {
       background: color-mix(in hsl shorter hue, hsl(var(--primary)) 10%, hsl(var(--white)) 100%);
     }
   }
