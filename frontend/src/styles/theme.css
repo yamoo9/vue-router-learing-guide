@@ -1,0 +1,23 @@
+:root {
+  /* Colors (HSL) */
+  --primary: 153, 47%, 53%;
+  --secondary: 211, 28%, 29%;
+  --white: 0, 0%, 100%;
+  --black: 0, 0%, 0%;
+
+  /* Spaces */
+  --space: 4px;
+  --half-space: calc(var(--space) * 0.5);
+  --space-2: calc(var(--space) * 2);
+  --space-3: calc(var(--space) * 3);
+  --space-4: calc(var(--space) * 4);
+  --space-5: calc(var(--space) * 5);
+  --space-6: calc(var(--space) * 6);
+  --space-7: calc(var(--space) * 7);
+  --space-8: calc(var(--space) * 8);
+  --space-9: calc(var(--space) * 9);
+  --space-10: calc(var(--space) * 10);
+
+  /* Container */
+  --max-inline-size: 1440px;
+}
