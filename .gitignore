@@ -1,0 +1,8 @@
+.env
+.DS_Store
+
+dist
+build
+node_modules
+pocketbase
+pb_data
