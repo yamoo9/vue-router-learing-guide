@@ -1,0 +1,30 @@
+html {
+  overflow-y: visible;
+  min-block-size: 100.022vh;
+}
+
+body {
+  margin: 0;
+}
+
+abbr[title] {
+  cursor: help;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
