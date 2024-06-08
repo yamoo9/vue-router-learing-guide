@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "vue-router-learning-guide",
+  "description": "Vue Router 러닝 가이드",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "pnpm --stream -r dev",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:backend": "pnpm --filter backend dev"
+  }
+}
