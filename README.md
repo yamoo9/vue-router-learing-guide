@@ -5,3 +5,7 @@
 ```sh
 npx degit yamoo9/vue-router-learning-guide#L00-begin L00
 ```
+
+## 설치 및 라우터 구성
+
+L00 브랜치에서 다루는 학습 내용은 Vue 프로젝트에 Vue Router를 설치 및 기본적인 라우터 구성입니다.
