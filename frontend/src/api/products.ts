@@ -13,7 +13,7 @@ export const useProductList = (
 
   onBeforeMount(async () => {
     try {
-      const response = await pb.collection('products').getList(page, perPage, options)
+      const response: ListResult<IProduct> = await pb.collection('olive_oil').getList(page, perPage, options)
 
       if (response) {
         response.items = response.items.map((product: IProduct) => ({
@@ -37,7 +37,7 @@ export const useProductItem = (productId: string) => {
 
   onBeforeMount(async () => {
     try {
-      const product = await pb.collection('products').getOne(productId)
+      const product: IProduct = await pb.collection('olive_oil').getOne(productId)
 
       if (product) {
         data.value = {
